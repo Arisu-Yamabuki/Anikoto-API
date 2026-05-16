@@ -39,6 +39,7 @@ async function getEpisodes(number) {
       if ($a.length) {
         episodes.push({
           num: $a.attr('data-num'),
+          malid: $a.attr('data-mal'),
           title: title || $a.text().trim(),
           data_id: $a.attr('data-id'),
           slug: $a.attr('data-slug'),
