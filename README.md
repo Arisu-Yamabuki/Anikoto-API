@@ -33,7 +33,7 @@ npm start
 
 Server runs at **http://localhost:3000**
 
-**Live Demo:** [https://anikoto-api.onrender.com](https://anikoto-api.onrender.com)
+**Live Demo:** [https://anikoto-api-glng.onrender.com/](https://anikoto-api-glng.onrender.com/)
 
 ---
 

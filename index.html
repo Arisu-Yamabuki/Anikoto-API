@@ -61,7 +61,7 @@
             </p>
             <div class="inline-flex items-center gap-2 bg-slate-900 text-slate-400 px-5 py-2 rounded-3xl text-sm">
                 <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-                Base URL: <code class="text-blue-400">https://anikoto-api.onrender.com</code>
+                Base URL: <code class="text-blue-400">https://anikoto-api-glng.onrender.com/</code>
             </div>
         </div>
     </header>
@@ -237,7 +237,7 @@
 
         async function sendRequest() {
             const type = document.getElementById('endpointSelect').value;
-            let url = 'https://anikoto-api.onrender.com';
+            let url = 'https://anikoto-api-glng.onrender.com/';
             const param = document.getElementById('paramValue').value.trim();
 
             if (type === 'info' || type === 'page') {
